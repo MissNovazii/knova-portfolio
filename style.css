@@ -577,7 +577,182 @@ nav a:hover{
 .project-info a:hover{
     transform: translateX(6px);
 }
+/* =========================
+   ACHIEVEMENTS SECTION
+========================= */
 
+.achievements-section {
+    padding: 100px 8%;
+    background: #f8fffd;
+    text-align: center;
+}
+
+
+/* Section Heading */
+
+.achievements-heading h2 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.achievements-heading h2 span {
+    color: #02c39a;
+}
+
+.achievements-heading p {
+    font-size: 18px;
+    color: #64748b;
+    max-width: 650px;
+    margin: 0 auto 60px;
+    line-height: 1.7;
+}
+
+
+/* Cards Container */
+
+.achievements-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 35px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* Individual Cards */
+
+.achievement-card {
+    position: relative;
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+
+    border: 2px solid transparent;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+    text-align: left;
+
+    transition: 
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+/* Hover Animation */
+
+.achievement-card:hover {
+    transform: translateY(-10px);
+
+    border-color: #02c39a;
+
+    box-shadow: 0 18px 40px rgba(2, 195, 154, 0.18);
+}
+
+
+/* Icon */
+
+.achievement-icon {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 35px;
+
+    background: #e6faf5;
+
+    border-radius: 18px;
+
+    margin-bottom: 25px;
+}
+
+
+/* Year */
+
+.achievement-year {
+    display: inline-block;
+
+    color: #02c39a;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    margin-bottom: 8px;
+}
+
+
+/* Title */
+
+.achievement-content h3 {
+    font-size: 28px;
+    color: #111827;
+
+    margin: 0 0 5px;
+}
+
+
+/* Organisation */
+
+.achievement-content h4 {
+    font-size: 17px;
+
+    color: #475569;
+
+    margin: 0 0 18px;
+}
+
+
+/* Description */
+
+.achievement-content p {
+    color: #64748b;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+}
+
+
+/* Recognition Button */
+
+.achievement-button {
+    border: none;
+
+    background: #02c39a;
+
+    color: white;
+
+    padding: 12px 22px;
+
+    border-radius: 25px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+
+.achievement-button:hover {
+    background: #019e7d;
+
+    transform: scale(1.05);
+}
 /* Footer */
 .footer{
     background:#172033;
